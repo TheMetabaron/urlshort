@@ -35,6 +35,7 @@ func main() {
 }
 
 func defaultMux() *http.ServeMux {
+	fmt.Println("*** DEBUG DEFAULTMUX ****")
 	mux := http.NewServeMux()
 	mux.HandleFunc("/", hello)
 	return mux
