@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/TheMetabaron/urlshort"
+	"urlshort"
 )
 
 func main() {
